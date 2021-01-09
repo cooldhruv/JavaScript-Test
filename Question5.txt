@@ -1,0 +1,11 @@
+Question 5 as given in the problem sheet cannot be solved as you can not have multiple property with the same name. 
+var obj = {
+ “id” : 4, “name” : “abc”,
+ “id” : 10, “name” : “ab2”,
+ “id” : 5, “name” : “abc3”,
+ “id” : 6, “name” : “abc5”
+}
+
+in the given object for key "id " and key "name" multiple values are given but JavaScript engine reads only the last values hence the problem cannot be solved.
+
+
